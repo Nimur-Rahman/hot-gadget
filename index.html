@@ -9,101 +9,41 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <div class="container mb-5 vh-100 pb-5">
-        <div class="row bg-img">
-            <div class="col d-flex justify-content-between">
-               <div class="first-div">
-                   <img src="img/logo.png" class="img-fluid width" alt="logo image">
-               </div>
-               <div class="second-div">
-                <nav class="navbar navbar-expand-lg text-dark">
-                    <div class="container-fluid">
-                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
-                      <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav text-dark">
-                          <li class="nav-item">
-                            <a class="nav-link text-dark" aria-current="page" href="#">Home</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link text-dark" href="#">Product</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link text-dark" href="#">About Us</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link text-dark">Contact Us</a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </nav>
-               </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="row align-items-center">
-                  <div class="col-md-6">
-                    <h1 class="mb-4">MackBook Pro</h1>
-                    <p class="mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo aspernatur tempore in nihil sint, eos corporis optio tenetur perferendis, vero molestias quibusdam, aliquid amet suscipit ipsa deserunt! Assumenda, vitae odit.</p>
-                    <button class="btn btn-primary">BUY NOW -></button>
-                  </div>
-                  <div class="col-md-6">
-                    <img src="img/banner-products/product-1.png" class="d-block w-100" alt="...">
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="row align-items-center">
-                  <div class="col-md-6">
-                    <h1 class="mb-4">Sound System For little home</h1>
-                    <p class="mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo aspernatur tempore in nihil sint, eos corporis optio tenetur perferendis, vero molestias quibusdam, aliquid amet suscipit ipsa deserunt! Assumenda, vitae odit.</p>
-                    <button class="btn btn-primary">BUY NOW -></button>
-                  </div>
-                  <div class="col-md-6">
-                    <img src="img/banner-products/slider-1.png" class="d-block w-100" alt="...">
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="row align-items-center">
-                  <div class="col-md-6">
-                    <h1 class="mb-4">Microphone for your little studio</h1>
-                    <p class="mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo aspernatur tempore in nihil sint, eos corporis optio tenetur perferendis, vero molestias quibusdam, aliquid amet suscipit ipsa deserunt! Assumenda, vitae odit.</p>
-                    <button class="btn btn-primary">BUY NOW -></button>
-                  </div>
-                  <div class="col-md-6">
-                    <img src="img/banner-products/slider-3.png" class="d-block w-100" alt="...">
-                  </div>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
+<div class="header">
+  <div class="container">
+    <div class="row justify-content-between py-5 align-items-center">
+      <div class="col-md-6">
+        <img src="img/logo.png" alt="logo image">
+      </div>
+      <div class="col-md-6">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">product</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled">Contact Us</a>
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
+        </nav>
       </div>
     </div>
+  </div>
+
+</div>
     
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
