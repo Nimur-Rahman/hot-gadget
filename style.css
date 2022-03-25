@@ -1,3 +1,9 @@
+.header {
+    background-image: url('img/bg-1.png');
+    background-repeat: no-repeat;
+    background-position:  center;
+}
+
 .width {
     width: 60%;
 }
@@ -11,4 +17,19 @@
     background-image: url("img/bg-1.png");
     background-repeat: no-repeat;
     background-position: center;
+}
+
+h1 {
+    position: relative;
+    z-index: 1;
+}
+
+h1::before {
+    content: "";
+    position: absolute;
+    left: 526px;
+    bottom: -7px;
+    height: 23px;
+    width: 18%;
+    border-bottom: 5px solid orange;
 }
