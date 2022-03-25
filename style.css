@@ -6,3 +6,9 @@
     font-weight: bold;
     color: #787878 !important;
 }
+
+.bg-img {
+    background-image: url("img/bg-1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
