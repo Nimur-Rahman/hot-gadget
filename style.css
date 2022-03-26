@@ -19,12 +19,12 @@
     background-position: center;
 }
 
-h1 {
+.cate h1 {
     position: relative;
     z-index: 1;
 }
 
-h1::before {
+.cate h1::before {
     content: "";
     position: absolute;
     left: 526px;
